@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toucan</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap" rel="stylesheet">
+  <script src="./script.js"></script>
+</head>
+
+<body>
+  <header class="bar" id="menuBar">
+    <div id="menu">
+      <div id="burger">
+        <span onclick="openNav()">&#9776;</span>
+      </div>
+
+      <div class="logo-container" id="topLogo">
+        <a href="index.html" class="logo"><img src="./images/toucan.jpg" alt="Toucan Logo"></a>
+      </div>
+    </div>
+
+    <nav id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="./index.html">Home</a>
+        <a href="./signUp.html">Sign Up</a>
+        <a href="./aboutUs.html">About Us</a>
+        <a href="./contact.html">Contact Us</a>
+        <a href="./volunteer.html">Volunteer</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h1 style="color: white" >Toucan.</h1>
+    <h3>We Can Teach, You Can Learn.</h3>
+  </section>
+
+  <section class="home">
+    <p>
+      Toucan is a non-profit organization working hard to provide free music lessons for less privileged children. Our goal is to make music education accessible, enjoyable for kids, and help these kids discover joy in music.
+    </p>
+    <img id="homeimg" src="./images/homeimg.jpg" alt="Girl playing piano">
+    <p>
+      Toucan was initiated by a group of friends who recognized the high cost of music education as a significant barrier for many families. Our mission is to bridge the gap by offering free music lessons. Music is something that brings happiness and different people together, and Toucan’s goal is to be able to bring that to kids who don’t have access to it.
+    </p>
+  </section>
+</body>
+
+</html>

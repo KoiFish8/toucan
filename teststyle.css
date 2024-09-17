@@ -1,0 +1,235 @@
+body { 
+	background-color: #80B918;
+	margin: 0;
+	padding: 0;
+}
+
+.bar {
+	background-color: #1a7032;
+	background-image: linear-gradient(#4b6a10, #105b25);
+	margin: 0;
+	padding: 0;
+}
+
+#menu {
+	height: 75px;
+	margin: 0;
+	position: relative;
+	width: 100%;
+}
+
+.logo-container {
+	display: flex;
+	height: 75px;
+	justify-content: center;
+	left: 25%;
+	position: absolute;
+	top: 0;
+	width: 50%;
+}
+
+.logo img {
+	border-radius: 10px;
+	height: 75px;
+	transition: 0.3s;
+}
+
+#burger span {
+	cursor: pointer;
+	font-size: 55px;
+}
+
+.overlay {
+	background-color: rgba(107, 107, 107, 0.9);
+	height: 100%;
+	left: 0;
+	overflow-x: hidden;
+	position: fixed;
+	top: 0;
+	transition: 0.5s;
+	width: 0;
+	z-index: 1;
+}
+
+.overlay-content {
+	margin-top: 30px;
+	position: relative;
+	text-align: center;
+	top: 25%;
+	width: 100%;
+}
+
+.overlay a {
+	color: DarkGray;
+	display: block;
+	font-size: 36px;
+	padding: 8px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+	color: #f1f1f1;
+}
+
+.overlay .closebtn {
+	font-size: 60px;
+	position: absolute;
+	right: 45px;
+	top: 20px;
+}
+
+@media screen and (max-height: 450px) {
+	.overlay a {
+		font-size: 20px;
+	}
+
+	.overlay .closebtn {
+		font-size: 40px;
+		right: 35px;
+		top: 15px;
+	}
+}
+
+.intro {
+	background-image: linear-gradient(#2B9348, #80B918);
+	display: flex;
+	flex-direction: column;
+	font-family: Playwrite NZ;
+	height: 400px;
+	justify-content: center;
+	text-align: center;
+}
+
+.intro h1 {
+	font-size: 5em;
+	margin: 0;
+}
+
+.card {
+	align-items: center;
+	background-color: #BFD200;
+	border-radius: 20px;
+	box-shadow: #AACC00 10px 10px;
+	display: flex;
+	font-family: Playwrite NZ;
+	justify-content: center;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	width: 60%;
+}
+
+.right .card {
+	float: left;
+}
+
+.left .card {
+	float: right;
+}
+
+.right img {
+	float: right;
+}
+
+.left .img {
+	float: left;
+}
+
+.card p {
+	float: left;
+}
+
+.about h3 {
+	margin: 10px;
+}
+
+@media (min-width: 200px) {
+	.card {
+		flex-direction: column;
+	}
+
+	.about img {
+		border-radius: 20px;
+		margin: 0 20px;
+		width: 80%;
+	}
+}
+
+@media (min-width: 500px) {
+	.card {
+		flex-direction: row;
+	}
+
+	.about img {
+		border-radius: 20px;
+		margin: 0 20px;
+		width: 20%;
+	}
+}
+
+.form {
+	background-color: #80B918;
+	display: flex;
+	justify-content: center;
+}
+
+.instructions {
+	border-radius: 20px;
+	box-shadow: #AACC00 10px 10px;
+	font-family: Playwrite NZ;
+	margin: 20px;
+	padding: 20px;
+	width: 60%;
+}
+
+.description {
+	background-color: #BFD200;
+	border-radius: 20px;
+	box-shadow: #AACC00 10px 10px;
+	font-family: Playwrite NZ;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	width: 90%;
+}
+
+.home {
+	background-color: #BFD200;
+	border-radius: 20px;
+	box-shadow: #AACC00 10px 10px;
+	display: flex;
+	flex-direction: column;
+	font-family: Playwrite NZ;
+	font-weight: bold;
+	margin: 0 auto 100px auto;
+	padding: 20px;
+	width: 90%;
+}
+
+#homeimg {
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 200px) {
+	#homeimg {
+		max-width: 90%;
+	}
+
+	iframe {
+		height: 800px;
+		width: 90%;
+	}
+}
+
+@media (min-width: 500px) {
+	#homeimg {
+		width: 400px;
+	}
+
+	iframe {
+		width: 60%;
+	}
+}
