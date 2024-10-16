@@ -1,13 +1,13 @@
 /*color palette dark to light #45425A #575C55 #6C7D47 #96A13A #ACC12F*/
 
 body { 
-  background-color: #575C55;
+  background-color: #D6D5C9;
   margin: 0;
   padding: 0;
 }
 
 .bar {
-  background-image: linear-gradient(#76885B, #6C7D47);
+  background-color: #B9BAA3;
   margin: 0;
   padding: 0;
 }
