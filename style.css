@@ -1,7 +1,5 @@
-/*color palette dark to light #45425A #575C55 #6C7D47 #96A13A #ACC12F*/
-
 body { 
-  background-color: #D6D5C9;
+  background-color: #FFF8F0;
   margin: 0;
   padding: 0;
 }
@@ -41,7 +39,7 @@ body {
 }
 
 .overlay {
-  background-color: rgb(78, 88, 75, 0.9);
+  background-color: #5c5c5cd2;
   height: 100%;
   left: 0;
   overflow-x: hidden;
@@ -61,7 +59,7 @@ body {
 }
 
 .overlay a {
-  color: DarkGray;
+  color: white;
   display: block;
   font-size: 36px;
   padding: 8px;
@@ -70,7 +68,7 @@ body {
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #dbffdc;
+  color: darkgray;
 }
 
 .overlay .closebtn {
@@ -93,29 +91,28 @@ body {
 }
 
 .intro {
-  background-image: linear-gradient(#6C7D47, #575C55);
+  background-color: #FFF8F0;
   display: flex;
   flex-direction: column;
   font-family: Playwrite NZ;
   height: 400px;
   justify-content: center;
   text-align: center;
-  color: #45425A;
+  color: black;
 }
 
 .intro h1 {
   font-size: 5em;
   margin: 0;
-  text-shadow: 2px 2px 10px black;
 }
 
 .intro h3 {
-  color: #45425A;
+  color: black;
 }
 
 .card {
   align-items: center;
-  background-color: #96A13A;
+  background-color: #FFC78F;
   border-radius: 20px;
   display: flex;
   font-family: Playwrite NZ;
@@ -194,9 +191,9 @@ body {
 }
 
 .description {
-  background-color: #96A13A;
+  background-color: #FF8360;
   border-radius: 20px;
-  box-shadow: #6C7D47 10px 10px;
+  box-shadow: #8C4843 10px 10px;
   font-family: Playwrite NZ;
   margin: 0 auto;
   padding: 20px;
@@ -205,9 +202,9 @@ body {
 }
 
 .home {
-  background-color: #96A13A;
+  background-color: #FF8360;
   border-radius: 20px;
-  box-shadow: #6C7D47 10px 10px;
+  box-shadow: #8C4843 10px 10px;
   display: flex;
   flex-direction: column;
   font-family: Playwrite NZ;
